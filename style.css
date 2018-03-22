@@ -1,0 +1,184 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(imgs/stary.gif); 
+	color: black;
+	line-height: 1.88889;
+	display: block;
+	padding: 65px 0px 0px 224px;
+    margin: 0px;
+}
+
+p {
+	margin-top: 0; 
+	text-align: justify;
+}
+ 
+ h3 {
+ 	font-family: "Arial Black", Gadget, sans-serif;
+ 	 text-decoration-line: underline;
+    text-decoration-style: wavy;
+	text-align: justify;
+	letter-spacing: 1;
+	color: #B7A5DF;
+	width: 80%;
+} 
+ 
+ a:link{
+ 	font-weight: bold; 
+	text-decoration: none; 
+	color: #38d4f4;
+ }
+
+ a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #38d4f4;
+	}
+
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+
+abbr {
+	border-bottom: none;
+	}
+
+.page-wrapper { 
+	padding: 0 175px 0 110px;  
+	margin: 0; 
+	position: relative;
+	}
+
+.intro { 
+	min-width: 470px;
+	width: 100%;
+	}
+
+header h1 { 
+	font-family: 'Courier New', Courier, monospace;
+	color: white;
+	font-size: 100px;
+	margin-top: 10px;
+	display: block;
+	text-align: center;
+	text-shadow: 2px 2px #8e8d8d;
+	white-space: nowrap;
+
+	}
+
+header h2 { 
+	color: #9685BA;
+	margin-top: 58px; 
+	margin-bottom: 20px; 
+	}
+
+.summary {
+	clear: both; 
+	margin: 25px 30px 20px 20px; 
+	width: 140px; 
+	float: left;
+	}
+
+.summary p {
+	font: italic 1.1em/2.2 Arial, Helvetica, sans-serif; 
+	font-size: 14px;
+	text-align: center;
+	}
+
+.preamble {
+	clear: right; 
+	padding: 0px 10px 0 10px;
+	}
+
+.supporting {	
+	padding-left: 10px; 
+	margin-bottom: 40px;
+	}
+
+footer { 
+	text-align: center; 
+	}
+
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
+
+.sidebar {
+	float: left; 
+	position: absolute;
+	height: 60%;
+    top: 125px;
+    left: -50px;
+	}
+
+.sidebar .wrapper { 
+	font: 11px Arial, Helvetica, sans-serif;  
+	padding: 10px; 
+	margin-top: 150px; 
+	width: 150px; 
+	}
+
+.sidebar h3.archives {  
+	width: 97px; 
+	height: 20px; 
+	}
+
+.sidebar h3.resources {   
+	width: 97px; 
+	height: 20px; 
+	}
+
+.sidebar ul {
+	margin: 0;
+	padding: 10;
+	}
+
+.sidebar li {
+	line-height: 1.3em;  
+	display: block; 
+	list-style-type: none;
+	border-bottom: solid;
+	border-bottom-color: #B7A5DF;
+	border-right-style: solid;
+	border-right-color: #B7A5DF;
+	}	
+
+.sidebar li a:link {
+	color: #38d4f4;
+	}
+
+.sidebar li a:visited {
+	color: #38d4f4;
+	}
+
+.sidebar li a:hover {
+	background: white;
+	text-decoration: none;
+}
+
+.extra1 {
+	background: transparent url("imgs/moon.png") top left no-repeat; 
+	position: absolute; 
+	background-size:contain;
+	top: 190px; 
+	left: 180px; 
+	width: 200px; 
+	height: 200px;
+	}
